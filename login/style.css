@@ -1,0 +1,112 @@
+/*Body*/
+body{
+	margin: 0;
+}
+/*-----//-----*/
+
+/*navbar*/
+.navbar{
+	padding: 0.50rem;
+	border: 0.75rem hidden;
+	box-shadow: 0 5px 7px 2px rgb(167, 156, 255);
+}
+.link{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.link li{
+	display: inline;
+	float: left;
+}
+.link a{
+	font-size: 1.35rem;
+	text-decoration: none;
+	font-family: "ubuntu", arial, sans-serif;
+	display: block;
+	padding: 1rem;
+}
+/*-----//-----*/
+
+/*container*/
+.container{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	margin: 9rem 0;
+}
+/*----//----*/
+
+/*Form*/
+.form{
+	text-align: center;
+	font-size: 18px;
+	font-family: "ubuntu", arial, sans-serif;
+	border: 0.25rem solid rgb(138, 117, 255);
+	box-shadow: -18px 18px 5px 0 rgb(167, 156, 255);
+	width: 20rem;
+	border-radius: 1rem 3rem;
+	color: rgb(50, 27, 179);
+	padding: 0.75rem;
+}
+.form h2{
+	cursor: default;
+}
+/*----//----*/
+
+/*Input Username & Password*/
+.input input{
+	border-radius: 0rem 0.45rem;
+	padding: 0.23rem;
+	border: rgb(138, 117, 255) solid 0.15rem;
+	color: rgb(50, 27, 179);
+}
+.input input:hover{
+	border:rgb(50, 27, 179) solid 0.15rem;
+	transition-duration: 0.6s;
+}
+#username, #password{
+	margin-bottom: 1rem;
+}
+/*----//----*/
+
+/*button*/
+.cta{
+	padding: 0.65rem;
+	margin-bottom: 1.35rem;
+	background-color: #ffffff;
+	border: rgb(138, 117, 255) solid 0.15rem;
+	border-radius: 0rem 0.45rem;
+	color: rgb(138, 117, 255);
+	font-weight: bold;
+	font-family: "ubuntu", arial, sans-serif;
+	cursor: pointer;
+}
+.cta:hover{
+	background-color: #ffffff;
+	border: rgb(50, 27, 179) solid 0.15rem;
+	color: rgb(50, 27, 179);
+	background-color: rgb(227, 222, 255);
+	transition-duration: 0.6s;
+}
+/*----//----*/
+
+/*Opsi Forgot pass & sign in*/
+.opsi{
+	margin-bottom: 1rem;
+	font-size: 0.95rem;
+	display: inline-block;
+}
+.opsi a{
+	text-decoration: none;
+	color: rgb(50, 27, 179);
+	padding: 0;
+	margin: 0rem 1.8rem;
+}
+.opsi a:hover{
+	color: rgb(138, 117, 255);
+	transition-duration: 0.6s;
+
+}
+/*----//----
