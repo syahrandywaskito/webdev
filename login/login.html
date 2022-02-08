@@ -4,32 +4,34 @@
 	<title>LOGIN</title>
 	<link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
 	<nav class="navbar">
-		<ul class="link">
-				<li><a href="home.html" target="_blank">Home</a></li>
-				<li><a href="signin.html" target="_blank">Sign in</a></li>
-				<li><a href="login.html" target="_blank">Login</a></li>
+		<ul class="body-navbar">
+				<li><a href="#" target="_blank"><img src="logo.png"></a></li>
+				<li><a href="home.html" target="_blank" class="hyperlink">Home</a></li>
+				<li><a href="signin.html" target="_blank" class="hyperlink">Sign in</a></li>
+				<li><a href="login.html" target="_blank" class="hyperlink">Login</a></li>
 		</ul>
 	</nav>
 
 	<section class="container">
 		<div class="form">
-			<h2 id="head">LOGIN</h2>
-			<form class="input">
+			<h2 class="form-head">LOGIN</h2>
+			<form class="form-input">
 				<label for="username">Username</label><br>
-				<input type="text" name="" id="username">
+				<input type="text" name="" id="username" class="input-box">
 				<br>
 				<label for="password">Password</label><br>
-				<input type="password" name="" id="password">
+				<input type="password" name="" id="password" class="input-box">
 				<br>
 				<button id="button" class="cta">Submit</button>
 				<br>
-				<span class="opsi">
-					<a href="forgot.html" target="_blank" id="forgot">Forgot Password?</a>
-					<a href="signin.html" target="_blank" id="signin"> Sign In</a>
+				<span class="form-option">
+					<a href="forgot.html" target="_blank" id="forgot">Forgot Password ?</a>
+					<a href="signin.html" target="_blank" id="signin">Sign In</a>
 				</span>
 			</form>
 	  </div>

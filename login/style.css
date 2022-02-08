@@ -9,23 +9,35 @@ body{
 	padding: 0.50rem;
 	border: 0.75rem hidden;
 	box-shadow: 0 5px 7px 2px rgb(167, 156, 255);
+	width: 100%;
 }
-.link{
+.body-navbar{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-.link li{
-	display: inline;
+.body-navbar li{
 	float: left;
 }
-.link a{
-	font-size: 1.35rem;
+.hyperlink{
+	font-size: 1.28rem;
 	text-decoration: none;
 	font-family: "ubuntu", arial, sans-serif;
-	display: block;
+	display: inline-block;
 	padding: 1rem;
+}
+.hyperlink:hover{
+	border-bottom: 0.20rem solid;
+	
+}
+.hyperlink:visited{
+	color: rgb(138, 117, 255);
+}
+.body-navbar img{
+	width: 55px;
+	margin: 0 2.5rem 0 5rem;
+	border-radius: 100%;
 }
 /*-----//-----*/
 
@@ -45,29 +57,33 @@ body{
 	font-family: "ubuntu", arial, sans-serif;
 	border: 0.25rem solid rgb(138, 117, 255);
 	box-shadow: -18px 18px 5px 0 rgb(167, 156, 255);
-	width: 20rem;
+	width: 19rem;
 	border-radius: 1rem 3rem;
 	color: rgb(50, 27, 179);
 	padding: 0.75rem;
 }
-.form h2{
+.form-head{
 	cursor: default;
 }
 /*----//----*/
 
 /*Input Username & Password*/
-.input input{
+.form-input .input-box{
 	border-radius: 0rem 0.45rem;
 	padding: 0.23rem;
-	border: rgb(138, 117, 255) solid 0.15rem;
+	margin-bottom: 1rem;
+	border: 0.15rem solid rgb(138, 117, 255);
 	color: rgb(50, 27, 179);
 }
-.input input:hover{
+.form-input .input-box:hover{
 	border:rgb(50, 27, 179) solid 0.15rem;
 	transition-duration: 0.6s;
 }
-#username, #password{
-	margin-bottom: 1rem;
+.form-input .input-box:focus{
+	outline: 0;
+	border: 0.15rem solid inherit;
+	border-radius: 0;
+	transition-duration: 0.45s;
 }
 /*----//----*/
 
@@ -86,6 +102,8 @@ body{
 .cta:hover{
 	background-color: #ffffff;
 	border: rgb(50, 27, 179) solid 0.15rem;
+	border-radius: 0;
+	outline: 0;
 	color: rgb(50, 27, 179);
 	background-color: rgb(227, 222, 255);
 	transition-duration: 0.6s;
@@ -93,20 +111,19 @@ body{
 /*----//----*/
 
 /*Opsi Forgot pass & sign in*/
-.opsi{
+.form-option{
 	margin-bottom: 1rem;
 	font-size: 0.95rem;
 	display: inline-block;
 }
-.opsi a{
+.form-option a{
 	text-decoration: none;
 	color: rgb(50, 27, 179);
 	padding: 0;
 	margin: 0rem 1.8rem;
 }
-.opsi a:hover{
-	color: rgb(138, 117, 255);
-	transition-duration: 0.6s;
-
+.form-option a:hover{
+	border-bottom: 0.16rem solid;
+	padding: 0;
 }
 /*----//----
